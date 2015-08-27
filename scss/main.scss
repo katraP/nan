@@ -454,13 +454,13 @@ li {
 					}
 					.i1 {
 						.l1 {
-							@include animation(snail_line1 .5s 4);
+							@include animation(snail_line1 .5s 3);
 						}
 						.l2 {
-							@include animation(snail_line2 .5s .05s 4);
+							@include animation(snail_line2 .5s .05s 3);
 						}
 						.l3 {
-							@include animation(snail_line3 .5s .035s 4);
+							@include animation(snail_line3 .5s .035s 3);
 						}
 					}
 				}

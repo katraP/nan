@@ -345,17 +345,17 @@ li {
       -webkit-animation: snail 0.2s 8;
       -moz-animation: snail 0.2s 8; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l1 {
-      animation: snail_line1 0.5s 4;
-      -webkit-animation: snail_line1 0.5s 4;
-      -moz-animation: snail_line1 0.5s 4; }
+      animation: snail_line1 0.5s 3;
+      -webkit-animation: snail_line1 0.5s 3;
+      -moz-animation: snail_line1 0.5s 3; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l2 {
-      animation: snail_line2 0.5s 0.05s 4;
-      -webkit-animation: snail_line2 0.5s 0.05s 4;
-      -moz-animation: snail_line2 0.5s 0.05s 4; }
+      animation: snail_line2 0.5s 0.05s 3;
+      -webkit-animation: snail_line2 0.5s 0.05s 3;
+      -moz-animation: snail_line2 0.5s 0.05s 3; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l3 {
-      animation: snail_line3 0.5s 0.035s 4;
-      -webkit-animation: snail_line3 0.5s 0.035s 4;
-      -moz-animation: snail_line3 0.5s 0.035s 4; }
+      animation: snail_line3 0.5s 0.035s 3;
+      -webkit-animation: snail_line3 0.5s 0.035s 3;
+      -moz-animation: snail_line3 0.5s 0.035s 3; }
 
 .tech {
   background-color: #f4f6f7; }
