@@ -8,172 +8,6 @@ $blueColor: #00afe2;
 	-webkit-animation: $variable;
 	-moz-animation: $variable;
 }
-@keyframes snail {
-	0% {
-		left: 0;
-		top:0;
-	}
-	50% {
-		left: 3px;
-		top: -3px;
-	}
-	100% {
-		left: 0;
-		top:0;
-	}
-}
-@-webkit-keyframes snail {
-	0% {
-		left: 0;
-		top:0;
-	}
-	50% {
-		left: 3px;
-		top: -3px;
-	}
-	100% {
-		left: 0;
-		top:0;
-	}
-}
-@-moz-keyframes snail {
-	0% {
-		left: 0;
-		top:0;
-	}
-	50% {
-		left: 3px;
-		top: -3px;
-	}
-	100% {
-		left: 0;
-		top:0;
-	}
-}
-
-@keyframes snail_line1 {
-	0% {
-		left: 35px;
-	}
-	25% {
-		left: 0;
-	}
-	50% {
-		left: -35px;
-	}
-	50.1% {
-		opacity:0;
-	}
-	75% {
-		left: 85px;
-		opacity: 0;
-	}
-	75.1% {
-		opacity: 1;
-	}
-	100% {
-		left: 35px;
-	}
-}
-@-moz-keyframes snail_line1 {
-	0% {
-		left: 35px;
-	}
-	25% {
-		left: 0;
-	}
-	50% {
-		left: -35px;
-	}
-	50.1% {
-		opacity:0;
-	}
-	75% {
-		left: 85px;
-		opacity: 0;
-	}
-	75.1% {
-		opacity: 1;
-	}
-	100% {
-		left: 35px;
-	}
-}
-@-webkit-keyframes snail_line1 {
-	0% {
-		left: 35px;
-	}
-	25% {
-		left: 0;
-	}
-	50% {
-		left: -35px;
-	}
-	50.1% {
-		opacity:0;
-	}
-	75% {
-		left: 85px;
-		opacity: 0;
-	}
-	75.1% {
-		opacity: 1;
-	}
-	100% {
-		left: 35px;
-	}
-}
-
-
-@keyframes snail_line2 {
-	0% {
-		left: 15px;
-	}
-	25% {
-		left: 0;
-	}
-	50% {
-		left: -50px;
-	}
-	50.1% {
-		opacity:0;
-	}
-	75% {
-		left: 85px;
-		opacity: 0;
-	}
-	75.1% {
-		opacity: 1;
-	}
-	100% {
-		left: 15px;
-	}
-}
-@keyframes snail_line3 {
-	0% {
-		left: 1px;
-	}
-	25% {
-		left: 0;
-	}
-	50% {
-		left: -86px;
-	}
-	50.1% {
-		opacity:0;
-	}
-	75% {
-		left: 85px;
-		opacity: 0;
-	}
-	75.1% {
-		opacity: 1;
-	}
-	100% {
-		left: 1px;
-	}
-}
-
 
 * {
 	margin:0;
@@ -225,7 +59,7 @@ li {
 				position: absolute;
 				bottom: 0;
 				left: -100%;
-				@include transition(left .3s cubic-bezier(0.250, 0.460, 0.450, 0.940));
+				@include transition(left .6s cubic-bezier(0.250, 0.460, 0.450, 0.940));
 			}
 			&:hover:before {
 				left: 0;
@@ -409,10 +243,18 @@ li {
 		&.publisher {
 			.line-container {
 				position: absolute;
-				left: 0;
-				top: 0;
-				width: 70px;
-				height: 60px;
+				left: -14px;
+				top: -3px;
+				width: 90px;
+				height: 80px;
+				overflow: hidden;
+			}
+			.line2-container {
+				position: absolute;
+				left: -23px;
+				top: 60px;
+				width: 55px;
+				height: 30px;
 				overflow: hidden;
 			}
 			.snail {
@@ -425,7 +267,7 @@ li {
 			}
 			.i1 {
 				position: relative;
-				.l1, .l2, .l3 {
+				.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
 					height: 1px;
 					background-color: $blueColor;
 					position: absolute;
@@ -433,34 +275,74 @@ li {
 				}
 				.l1 {
 					width: 30px;
-					left: 35px;
+					left: 55px;
 					top: 15px;
 				}
 				.l2 {
 					width: 45px;
-					left: 15px;
+					left: 35px;
 					top: 25px;
 				}
 				.l3 {
 					width: 55px;
-					left: 1px;
-					top: 36px;
+					left: 24px;
+					top: 35px;
+				}
+				.l4 {
+					width: 55px;
+					left: 25px;
+					top: 45px;
+				}
+				.l5 {
+					width: 50px;
+					left: 35px;
+					top: 55px;
+				}
+				.l6 {
+					width: 30px;
+					left: 26px;
+					top: 9px;
+				}
+				.l7 {
+					width: 30px;
+					left: 21px;
+					top: 17px;
+				}
+				.l8 {
+					width: 30px;
+					left: 26px;
+					top: 26px;
 				}
 			}
 			.w-us-features-item {
 				&:hover {
 					.snail {
-						@include animation(snail .2s 8);
+						@include animation(snail .17s 16);
 					}
 					.i1 {
 						.l1 {
-							@include animation(snail_line1 .5s 3);
+							@include animation(snail_line1 2.5s 1);
 						}
 						.l2 {
-							@include animation(snail_line2 .5s .05s 3);
+							@include animation(snail_line2 2.5s .1s 1);
 						}
 						.l3 {
-							@include animation(snail_line3 .5s .035s 3);
+							@include animation(snail_line3 2.5s 1);
+						}
+						.l4 {
+							@include animation(snail_line4 2.5s .1s 1);
+						}
+						.l5 {
+							@include animation(snail_line5 2.5s 1);
+						}
+						.l6 {
+							@include animation(snail_line6 2.5s 1);
+						}
+						.l7 {
+							@include animation(snail_line7 2.5s .1s 1);
+						}
+						.l8 {
+							@include animation(snail_line6 2.5s 1);
 						}
 					}
 				}
