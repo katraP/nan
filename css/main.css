@@ -136,9 +136,9 @@ li {
     text-align: center;
     font: 25px 'montserratlight', sans-serif;
     border-radius: 7px;
-    width: 180px; }
+    width: 180px;
+    border: 2px solid #00afe2; }
   .w-us__link {
-    border: 2px solid #00afe2;
     color: #00afe2;
     transition: background-color 0.7s, color 0.7s;
     -webkit-transition: background-color 0.7s, color 0.7s; }
@@ -146,8 +146,8 @@ li {
       background-color: #00afe2;
       color: #ffffff; }
     .w-us__link--current {
-      border: 2px solid #a9a9a9;
-      color: #c6d0da; }
+      background-color: #00afe2;
+      color: #ffffff; }
   .w-us-features {
     padding: 20px 0; }
     .w-us-features-item {
@@ -258,41 +258,41 @@ li {
         left: 26px;
         top: 26px; }
     .w-us-features.publisher .w-us-features-item:hover .snail {
-      animation: snail 0.2s 13;
-      -webkit-animation: snail 0.2s 13;
-      -moz-animation: snail 0.2s 13; }
+      animation: snail 0.25s 11;
+      -webkit-animation: snail 0.25s 11;
+      -moz-animation: snail 0.25s 11; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l1 {
-      animation: snail_line1 2.5s 1;
-      -webkit-animation: snail_line1 2.5s 1;
-      -moz-animation: snail_line1 2.5s 1; }
+      animation: snail_line1 2.9s 1;
+      -webkit-animation: snail_line1 2.9s 1;
+      -moz-animation: snail_line1 2.9s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l2 {
-      animation: snail_line2 2.5s 0.1s 1;
-      -webkit-animation: snail_line2 2.5s 0.1s 1;
-      -moz-animation: snail_line2 2.5s 0.1s 1; }
+      animation: snail_line2 2.9s 0.1s 1;
+      -webkit-animation: snail_line2 2.9s 0.1s 1;
+      -moz-animation: snail_line2 2.9s 0.1s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l3 {
-      animation: snail_line3 2.5s 1;
-      -webkit-animation: snail_line3 2.5s 1;
-      -moz-animation: snail_line3 2.5s 1; }
+      animation: snail_line3 2.9s 1;
+      -webkit-animation: snail_line3 2.9s 1;
+      -moz-animation: snail_line3 2.9s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l4 {
-      animation: snail_line4 2.5s 0.1s 1;
-      -webkit-animation: snail_line4 2.5s 0.1s 1;
-      -moz-animation: snail_line4 2.5s 0.1s 1; }
+      animation: snail_line4 2.9s 0.1s 1;
+      -webkit-animation: snail_line4 2.9s 0.1s 1;
+      -moz-animation: snail_line4 2.9s 0.1s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l5 {
-      animation: snail_line5 2.5s 1;
-      -webkit-animation: snail_line5 2.5s 1;
-      -moz-animation: snail_line5 2.5s 1; }
+      animation: snail_line5 2.9s 1;
+      -webkit-animation: snail_line5 2.9s 1;
+      -moz-animation: snail_line5 2.9s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l6 {
-      animation: snail_line6 2.5s 1;
-      -webkit-animation: snail_line6 2.5s 1;
-      -moz-animation: snail_line6 2.5s 1; }
+      animation: snail_line6 2.9s 1;
+      -webkit-animation: snail_line6 2.9s 1;
+      -moz-animation: snail_line6 2.9s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l7 {
-      animation: snail_line7 2.5s 0.1s 1;
-      -webkit-animation: snail_line7 2.5s 0.1s 1;
-      -moz-animation: snail_line7 2.5s 0.1s 1; }
+      animation: snail_line7 2.9s 0.1s 1;
+      -webkit-animation: snail_line7 2.9s 0.1s 1;
+      -moz-animation: snail_line7 2.9s 0.1s 1; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l8 {
-      animation: snail_line6 2.5s 1;
-      -webkit-animation: snail_line6 2.5s 1;
-      -moz-animation: snail_line6 2.5s 1; }
+      animation: snail_line6 2.9s 1;
+      -webkit-animation: snail_line6 2.9s 1;
+      -moz-animation: snail_line6 2.9s 1; }
 
 .tech {
   background-color: #f4f6f7; }

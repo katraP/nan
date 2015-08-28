@@ -164,9 +164,10 @@ li {
 		font: 25px 'montserratlight', sans-serif;
 		border-radius:7px;
 		width: 180px;
+		border: 2px solid $blueColor;
 	}
 	&__link {
-		border: 2px solid $blueColor;
+
 		color: $blueColor;
 		@include transition(background-color .7s, color .7s);
 		&:hover {
@@ -174,8 +175,8 @@ li {
 			color: #ffffff;
 		}
 		&--current {
-			border: 2px solid #a9a9a9;
-			color: #c6d0da;
+			background-color: $blueColor;
+			color: #ffffff;
 		}
 	}
 	&-features {
@@ -317,32 +318,32 @@ li {
 			.w-us-features-item {
 				&:hover {
 					.snail {
-						@include animation(snail .2s 13);
+						@include animation(snail .25s 11);
 					}
 					.i1 {
 						.l1 {
-							@include animation(snail_line1 2.5s 1);
+							@include animation(snail_line1 2.9s 1);
 						}
 						.l2 {
-							@include animation(snail_line2 2.5s .1s 1);
+							@include animation(snail_line2 2.9s .1s 1);
 						}
 						.l3 {
-							@include animation(snail_line3 2.5s 1);
+							@include animation(snail_line3 2.9s 1);
 						}
 						.l4 {
-							@include animation(snail_line4 2.5s .1s 1);
+							@include animation(snail_line4 2.9s .1s 1);
 						}
 						.l5 {
-							@include animation(snail_line5 2.5s 1);
+							@include animation(snail_line5 2.9s 1);
 						}
 						.l6 {
-							@include animation(snail_line6 2.5s 1);
+							@include animation(snail_line6 2.9s 1);
 						}
 						.l7 {
-							@include animation(snail_line7 2.5s .1s 1);
+							@include animation(snail_line7 2.9s .1s 1);
 						}
 						.l8 {
-							@include animation(snail_line6 2.5s 1);
+							@include animation(snail_line6 2.9s 1);
 						}
 					}
 				}
