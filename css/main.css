@@ -258,9 +258,9 @@ li {
         left: 26px;
         top: 26px; }
     .w-us-features.publisher .w-us-features-item:hover .snail {
-      animation: snail 0.17s 16;
-      -webkit-animation: snail 0.17s 16;
-      -moz-animation: snail 0.17s 16; }
+      animation: snail 0.2s 13;
+      -webkit-animation: snail 0.2s 13;
+      -moz-animation: snail 0.2s 13; }
     .w-us-features.publisher .w-us-features-item:hover .i1 .l1 {
       animation: snail_line1 2.5s 1;
       -webkit-animation: snail_line1 2.5s 1;
