@@ -189,5 +189,166 @@
     opacity: 1; }
   100% {
     left: 21px; } }
+@-moz-keyframes snail_line1 {
+  0% {
+    left: 55px; }
+  25% {
+    left: -40px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 100px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -40px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 100px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 55px; } }
+@-moz-keyframes snail_line2 {
+  0% {
+    left: 35px; }
+  25% {
+    left: -80px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 100px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -80px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 120px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 35px; } }
+@-moz-keyframes snail_line3 {
+  0% {
+    left: 24px; }
+  25% {
+    left: -90px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 100px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -90px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 120px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 24px; } }
+@-moz-keyframes snail_line4 {
+  0% {
+    left: 25px; }
+  25% {
+    left: -90px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 100px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -90px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 100px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 25px; } }
+@-moz-keyframes snail_line5 {
+  0% {
+    left: 35px; }
+  25% {
+    left: -80px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 100px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -80px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 100px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 35px; } }
+@-moz-keyframes snail_line6 {
+  0% {
+    left: 26px; }
+  25% {
+    left: -30px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 60px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -30px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 60px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 26px; } }
+@-moz-keyframes snail_line7 {
+  0% {
+    left: 21px; }
+  25% {
+    left: -40px; }
+  25.1% {
+    opacity: 0; }
+  50% {
+    left: 60px;
+    opacity: 0; }
+  50.1% {
+    opacity: 1; }
+  75% {
+    left: -40px; }
+  75.1% {
+    opacity: 0; }
+  90% {
+    left: 60px;
+    opacity: 0; }
+  90.1% {
+    opacity: 1; }
+  100% {
+    left: 21px; } }
 
 /*# sourceMappingURL=keyframes.css.map */
