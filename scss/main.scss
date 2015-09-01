@@ -18,6 +18,11 @@ $headphone2: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAABXCAYAAAC3IY+Q
 li {
 	list-style-type: none;
 }
+body {
+	&.nonactive {
+		overflow-y: hidden;
+	}
+}
 .content-block {
 	width: 1005px;
 	margin: auto;
@@ -821,4 +826,149 @@ textarea.contact__field {
 	max-width: 100%;
 	height: 105px;
 	min-height: 105px;
+}
+.login {
+	&-layer {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+		opacity:0;
+		z-index: 10;
+		width: 100%;
+		height: 100%;
+		transition: opacity .7s;
+		-webkit-transition: opacity .7s;
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjNGRkQ0M0IxNTBENjExRTU5OTk0QjAzNEQzOTU2RkVCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjNGRkQ0M0IyNTBENjExRTU5OTk0QjAzNEQzOTU2RkVCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6M0ZGRDQzQUY1MEQ2MTFFNTk5OTRCMDM0RDM5NTZGRUIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6M0ZGRDQzQjA1MEQ2MTFFNTk5OTRCMDM0RDM5NTZGRUIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7RKPsKAAAAD0lEQVR42mIQ0zA/AxBgAAIPAUItPFYzAAAAAElFTkSuQmCC') left top repeat transparent;
+		&.active {
+			transition: opacity .7s;
+			-webkit-transition: opacity .7s;
+			opacity: 1;
+		}
+	}
+	&-container {
+		background-color: #ffffff;
+		width: 600px;
+		height: 500px;
+		padding: 50px;
+		margin: 40px auto auto;
+		position: relative;
+		text-align: center;
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			width: 28px;
+			height: 28px;
+			text-decoration: none;
+			border-radius: 50%;
+			border: 2px solid #3e5368;
+			color:#3e5368;
+			font-size: 28px;
+			font-family: Arial, sans-serif;
+			line-height: 28px;
+			cursor: pointer;
+			transition: background-color .7s, color .7s;
+			-webkit-transition: background-color .7s, color .7s;
+			&:hover {
+				background-color:#3e5368;
+				color: #fff;
+			}
+		}
+	}
+	&-toggle {
+		text-align: center;
+	}
+	&-form {
+		margin-top: 60px;
+		text-align: center;
+
+	}
+	&-line {
+		padding-bottom: 20px;
+	}
+	&__label {
+		display: inline-block;
+		font: 17px 'montserratlight', sans-serif;
+		text-align: right;
+		color: #333333;
+		width: 120px;
+		margin-left: -100px;
+		&--terms {
+			display: inline-block;
+			margin-bottom: 20px;
+			color: #333333;
+			font: 17px 'montserratlight', sans-serif;
+		}
+	}
+	&__field {
+		padding: 7px 5px;
+		border: 1px solid #b1b1b1;
+		font: 17px 'montserratlight', sans-serif;
+		border-radius: 3px;
+		margin-left: 5px;
+		width: 200px;
+		box-sizing: border-box;
+		transition: border-color .7s;
+		-webkit-transition:  border-color .7s;
+		outline: none;
+		&:focus {
+			border-color: $blueColor;
+		}
+	}
+	&__submit {
+		@extend .tech__link;
+		background-color: #ffffff;
+		cursor: pointer;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	&__link {
+		text-decoration: none;
+		color: $blueColor;
+		font: 14px 'montserratlight', sans-serif;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.login, .sign {
+	opacity: 0;
+	transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+	&.active {
+		opacity: 1;
+	}
+}
+.login, .sign {
+	&__but {
+		color: #333333;
+		font: 26px 'montserratlight', sans-serif;
+		display: inline-block;
+		padding: 10px 25px;
+		background-color: #ffffff;
+		transition: background-color .7s, color .7s;
+		-webkit-transition: background-color .7s, color .7s;
+		border-radius: 5px;
+		&:hover, &.active {
+			background-color: #333333;
+			color: #ffffff;
+			cursor: pointer;
+		}
+	}
+}
+.sign__but {
+	margin-left: 15px;
+}
+.contacts {
+	&-line {
+		margin-left: -4px;
+		display: inline-block;
+		width: 200px;
+		vertical-align: top;
+		select.login__field {
+			width: 200px;
+			margin-bottom: 10px;
+		}
+	}
 }
