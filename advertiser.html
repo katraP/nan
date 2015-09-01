@@ -4,6 +4,7 @@
         <title>NAN-Homepage</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
         <link rel="stylesheet" href="css/fonts.css"/>
+        <link rel="stylesheet" href="css/keyframes.css"/>
         <link rel="stylesheet" href="css/main.css"/>
     </head>
 <body>
@@ -51,9 +52,9 @@
         <div class="content-block">
             <div class="w-us__title">Why choose us?</div>
             <div class="w-us-links">
-                <span class="w-us__link--current">Publishers</span>
+                <a href="publisher.html" class="w-us__link">Publishers</a>
                 <span class="w-us-links__separator">and</span>
-                <a href="#" class="w-us__link">Advertisers</a>
+                <span class="w-us__link--current">Advertisers</span>
             </div>
             <ul class="w-us-features clearfix">
                 <li class="w-us-features-item">
@@ -68,7 +69,18 @@
                 </li>
                 <li class="w-us-features-item">
                     <div class="w-us-features-icon">
-                        <span class="w-us-features__i2"></span>
+                        <div class="w-us-features i2">
+                            <span class="loupe"></span>
+                            <span class="graph-container">
+                                <span class="l1"></span>
+                                <span class="l2"></span>
+                                <span class="l3"></span>
+                                <span class="l4"></span>
+                                <span class="l5"></span>
+                                <span class="l6"></span>
+                            </span>
+
+                        </div>
                     </div>
                     <div class="w-us-features__title">Transparent Statistics</div>
                     <div class="w-us-features__text">
@@ -78,7 +90,16 @@
                 </li>
                 <li class="w-us-features-item">
                     <div class="w-us-features-icon">
-                        <span class="w-us-features__i3"></span>
+                        <div class="w-us-features i3">
+                            <span class="headphones"></span>
+                            <span class="curve1"></span>
+                            <span class="curve2"></span>
+                            <span class="curve3"></span>
+                            <span class="curve4"></span>
+                            <span class="curve5"></span>
+                            <span class="curve6"></span>
+
+                        </div>
                     </div>
                     <div class="w-us-features__title">24/7 Support</div>
                     <div class="w-us-features__text">
@@ -297,5 +318,63 @@
             </div>
         </div>
     </footer>
+    <div class="login-layer">
+        <div class="login-container">
+            <span class="close">&times</span>
+            <div class="login-toggle">
+                <span class="login__but active">Login</span> <span class="sign__but">Signup</span>
+            </div>
+            <form action="" class="login-form login active">
+                <div class="login-line">
+                    <label class="login__label" for="email">E-mail:</label> <input type="text" id="email" placeholder="      @" class="login__field"/>
+                </div>
+                <div class="login-line">
+                    <label class="login__label" for="password">Password:</label> <input type="password" id="password" placeholder="password" class="login__field"/>
+                </div>
+                <div class="login-line">
+                    <input type="submit" class="login__submit" value="Login"/>
+                </div>
+                <div class="login-line">
+                    <a href="#" class="login__link">Don't have account?</a>
+                </div>
+                <div class="login-line">
+                    <a href="#" class="login__link">Forgot your password?</a>
+                </div>
+            </form>
+            <form action="" class="login-form sign">
+                <div class="login-line">
+                    <label class="login__label" for="email">E-mail:</label> <input type="text" id="email" placeholder="      @" class="login__field"/>
+                </div>
+                <div class="login-line">
+                    <label class="login__label" for="password">Password:</label> <input type="password" id="password" placeholder="********" class="login__field"/>
+                </div>
+                <div class="login-line">
+                    <label class="login__label" for="confirm">Confirm:</label> <input type="password" id="confirm" placeholder="********" class="login__field"/>
+                </div>
+                <div class="login-line">
+                    <label class="login__label"  for="contacts">Contacts:</label>
+                    <div class="contacts-line">
+                        <select name="" id="" class="login__field">
+                            <option value="0">Skype</option>
+                            <option value="1">ICQ</option>
+                            <option value="2">Jabber</option>
+                        </select>
+                        <input type="text" id="contacts" placeholder="Enter your valid contacts" class="login__field"/>
+                    </div>
+                </div>
+                <div class="login__line">
+                    <label class="login__label--terms">
+                        <input type="checkbox"/> I agree with <a href="#" class="login__link">Terms & Conditions</a>
+                    </label>
+                </div>
+                <div class="login-line">
+                    <input type="submit" class="login__submit" value="Create account"/>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>
