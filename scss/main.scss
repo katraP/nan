@@ -410,13 +410,13 @@ li {
 						@include animation(headphones 3s);
 					}
 					.coin1 {
-						@include animation(coin1 3s .5s 1);
+						@include animation(coin1 3s 1);
 					}
 					.coin2 {
-						@include animation(coin2 3s .2s 1);
+						@include animation(coin2 3s .4s 1);
 					}
 					.coin3 {
-						@include animation(coin3 3s  1);
+						@include animation(coin3 3s .2s 1);
 					}
 				}
 			}

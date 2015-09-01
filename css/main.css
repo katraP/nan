@@ -349,17 +349,17 @@ li {
       -webkit-animation: headphones 3s;
       -moz-animation: headphones 3s; }
     .w-us-features.publisher .w-us-features-item:hover .coin1 {
-      animation: coin1 3s 0.5s 1;
-      -webkit-animation: coin1 3s 0.5s 1;
-      -moz-animation: coin1 3s 0.5s 1; }
+      animation: coin1 3s 1;
+      -webkit-animation: coin1 3s 1;
+      -moz-animation: coin1 3s 1; }
     .w-us-features.publisher .w-us-features-item:hover .coin2 {
-      animation: coin2 3s 0.2s 1;
-      -webkit-animation: coin2 3s 0.2s 1;
-      -moz-animation: coin2 3s 0.2s 1; }
+      animation: coin2 3s 0.4s 1;
+      -webkit-animation: coin2 3s 0.4s 1;
+      -moz-animation: coin2 3s 0.4s 1; }
     .w-us-features.publisher .w-us-features-item:hover .coin3 {
-      animation: coin3 3s 1;
-      -webkit-animation: coin3 3s 1;
-      -moz-animation: coin3 3s 1; }
+      animation: coin3 3s 0.2s 1;
+      -webkit-animation: coin3 3s 0.2s 1;
+      -moz-animation: coin3 3s 0.2s 1; }
 
 .tech {
   background-color: #f4f6f7; }
