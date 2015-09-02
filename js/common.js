@@ -2,6 +2,13 @@
  * Created by Ekaterina.Porkhun on 01.09.2015.
  */
 $(function(){
+    function closeLoginPopup(){
+        $('body').removeClass('nonactive');
+        $('.login-layer').removeClass('active');
+        setTimeout(function(){
+            $('.login-layer').css('display', 'none');
+        }, 700);
+    }
     $('.header-login__toggle').on('click', function(){
        $('body').addClass('nonactive');
         $('.login-layer').css('display', 'block');
@@ -9,12 +16,14 @@ $(function(){
             $('.login-layer').addClass('active');
         }, 10);
     });
-    $('.close').on('click', function(){
-        $('body').removeClass('nonactive');
-        $('.login-layer').removeClass('active');
-        setTimeout(function(){
-            $('.login-layer').css('display', 'none');
-        }, 700);
+    $('.close, .login-layer').on('click', function(){
+        closeLoginPopup();
+    });
+    $(document).keyup(function(e){
+        var code = e.keyCode || e.which;
+        if(code == 27){
+            closeLoginPopup();
+        }
     });
     $('.login-toggle').on('click','.login__but, .sign__but', function(){
        if($(this).hasClass('active')) {
@@ -48,11 +57,4 @@ $(function(){
         e.stopPropagation();
         return false;
     });
-    $('.login-layer').click(function(){
-        $('body').removeClass('nonactive');
-        $('.login-layer').removeClass('active');
-        setTimeout(function(){
-            $('.login-layer').css('display', 'none');
-        }, 700);
-    })
 })
