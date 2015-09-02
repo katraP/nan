@@ -2174,5 +2174,33 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
+@-webkit-keyframes arr {
+  0% {
+    top: 0; }
+  65% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+@-moz-keyframes arr {
+  0% {
+    top: 0; }
+  65% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+@-ms-keyframes arr {
+  0% {
+    top: 0; }
+  65% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+@keyframes arr {
+  0% {
+    top: 0; }
+  65% {
+    top: 10px; }
+  100% {
+    top: 0; } }
 
 /*# sourceMappingURL=keyframes.css.map */

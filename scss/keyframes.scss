@@ -846,3 +846,14 @@
 		opacity: 0;
 	}
 }
+@include keyframes(arr) {
+	0% {
+		top:0;
+	}
+	65% {
+		top: 10px;
+	}
+	100% {
+		top: 0;
+	}
+}
