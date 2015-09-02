@@ -282,6 +282,14 @@ body {
 						transform: scale(1);
 						-webkit-transform: scale(1);
 					}
+					.loupe {
+						transform: rotateZ(40deg);
+						-webkit-transform: rotateZ(40deg);
+					}
+					.graph-container {
+						left: 82px;
+						top: 35px;
+					}
 				}
 				.snail {
 					@include animation(snail .25s 11);
@@ -353,22 +361,22 @@ body {
 				}
 				.i4 {
 					.front {
-						@include animation(pillar_front 6s)
+						@include animation(pillar_front 5s)
 					}
 					.end {
-						@include animation(pillar_end 6s)
+						@include animation(pillar_end 5s)
 					}
 					.label1 {
-						@include animation(pillar_label1 6s);
+						@include animation(pillar_label1 5s);
 					}
 					.label2 {
-						@include animation(pillar_label2 6s);
+						@include animation(pillar_label2 5s);
 					}
 					.w1, .w4 {
-						@include animation(white1 6s);
+						@include animation(white1 5s);
 					}
 					.w2, .w3 {
-						@include animation(white2 6s);
+						@include animation(white2 5s);
 					}
 				}
 			}
@@ -559,8 +567,8 @@ body {
 			.loupe, .graph-container {
 				transition: transform .5s;
 				-webkit-transition: transform .5s;
-				transform: scale(0.94);
-				-webkit-transform: scale(0.94);
+				transform: scale(0.86);
+				-webkit-transform: scale(0.86);
 			}
 			.graph-container {
 				left: 67px;
@@ -569,6 +577,8 @@ body {
 				overflow: hidden;
 				width: 55px;
 				position: absolute;
+				transition: left .5s, top .5s;
+				-webkit-transition: left .5s, top .5s;
 				span {
 					background-color: #f6c43d;
 					width: 6px;
@@ -1249,6 +1259,8 @@ textarea.contact__field {
 		@extend .tech__link;
 		background-color: #ffffff;
 		cursor: pointer;
+		padding: 10px 35px;
+		font-size:20px;
 		margin-top: 10px;
 		margin-bottom: 20px;
 	}
@@ -1272,7 +1284,7 @@ textarea.contact__field {
 .login, .sign {
 	&__but {
 		color: #333333;
-		font: 26px 'montserratlight', sans-serif;
+		font: 18px 'montserratlight', sans-serif;
 		display: inline-block;
 		padding: 10px 25px;
 		background-color: #ffffff;
@@ -1280,7 +1292,7 @@ textarea.contact__field {
 		-webkit-transition: background-color .7s, color .7s;
 		border-radius: 5px;
 		&:hover, &.active {
-			background-color: #333333;
+			background-color: #556d7f;
 			color: #ffffff;
 			cursor: pointer;
 		}

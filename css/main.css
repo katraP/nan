@@ -248,6 +248,12 @@ body.nonactive {
       .w-us-features-item:hover .i2 .loupe, .w-us-features-item:hover .i2 .graph-container {
         transform: scale(1);
         -webkit-transform: scale(1); }
+      .w-us-features-item:hover .i2 .loupe {
+        transform: rotateZ(40deg);
+        -webkit-transform: rotateZ(40deg); }
+      .w-us-features-item:hover .i2 .graph-container {
+        left: 82px;
+        top: 35px; }
       .w-us-features-item:hover .snail {
         animation: snail 0.25s 11;
         -webkit-animation: snail 0.25s 11;
@@ -333,29 +339,29 @@ body.nonactive {
         -webkit-animation: graphl7 2s;
         -moz-animation: graphl7 2s; }
       .w-us-features-item:hover .i4 .front {
-        animation: pillar_front 6s;
-        -webkit-animation: pillar_front 6s;
-        -moz-animation: pillar_front 6s; }
+        animation: pillar_front 5s;
+        -webkit-animation: pillar_front 5s;
+        -moz-animation: pillar_front 5s; }
       .w-us-features-item:hover .i4 .end {
-        animation: pillar_end 6s;
-        -webkit-animation: pillar_end 6s;
-        -moz-animation: pillar_end 6s; }
+        animation: pillar_end 5s;
+        -webkit-animation: pillar_end 5s;
+        -moz-animation: pillar_end 5s; }
       .w-us-features-item:hover .i4 .label1 {
-        animation: pillar_label1 6s;
-        -webkit-animation: pillar_label1 6s;
-        -moz-animation: pillar_label1 6s; }
+        animation: pillar_label1 5s;
+        -webkit-animation: pillar_label1 5s;
+        -moz-animation: pillar_label1 5s; }
       .w-us-features-item:hover .i4 .label2 {
-        animation: pillar_label2 6s;
-        -webkit-animation: pillar_label2 6s;
-        -moz-animation: pillar_label2 6s; }
+        animation: pillar_label2 5s;
+        -webkit-animation: pillar_label2 5s;
+        -moz-animation: pillar_label2 5s; }
       .w-us-features-item:hover .i4 .w1, .w-us-features-item:hover .i4 .w4 {
-        animation: white1 6s;
-        -webkit-animation: white1 6s;
-        -moz-animation: white1 6s; }
+        animation: white1 5s;
+        -webkit-animation: white1 5s;
+        -moz-animation: white1 5s; }
       .w-us-features-item:hover .i4 .w2, .w-us-features-item:hover .i4 .w3 {
-        animation: white2 6s;
-        -webkit-animation: white2 6s;
-        -moz-animation: white2 6s; }
+        animation: white2 5s;
+        -webkit-animation: white2 5s;
+        -moz-animation: white2 5s; }
     .w-us-features-icon {
       text-align: center;
       padding-bottom: 20px;
@@ -512,15 +518,17 @@ body.nonactive {
       .w-us-features .i2 .loupe, .w-us-features .i2 .graph-container {
         transition: transform .5s;
         -webkit-transition: transform .5s;
-        transform: scale(0.94);
-        -webkit-transform: scale(0.94); }
+        transform: scale(0.86);
+        -webkit-transform: scale(0.86); }
       .w-us-features .i2 .graph-container {
         left: 67px;
         top: 45px;
         height: 45px;
         overflow: hidden;
         width: 55px;
-        position: absolute; }
+        position: absolute;
+        transition: left .5s, top .5s;
+        -webkit-transition: left .5s, top .5s; }
         .w-us-features .i2 .graph-container span {
           background-color: #f6c43d;
           width: 6px;
@@ -1039,6 +1047,8 @@ textarea.contact__field {
 .login__submit {
   background-color: #ffffff;
   cursor: pointer;
+  padding: 10px 35px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 20px; }
 .login__link {
@@ -1057,7 +1067,7 @@ textarea.contact__field {
 
 .login__but, .sign__but {
   color: #333333;
-  font: 26px 'montserratlight', sans-serif;
+  font: 18px 'montserratlight', sans-serif;
   display: inline-block;
   padding: 10px 25px;
   background-color: #ffffff;
@@ -1065,7 +1075,7 @@ textarea.contact__field {
   -webkit-transition: background-color .7s, color .7s;
   border-radius: 5px; }
   .login__but:hover, .login__but.active, .sign__but:hover, .sign__but.active {
-    background-color: #333333;
+    background-color: #556d7f;
     color: #ffffff;
     cursor: pointer; }
 
