@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65667576" vertical-offset="4516" max-vertical-offset="21658">
-              <caret line="329" column="54" selection-start-line="329" selection-start-column="54" selection-end-line="329" selection-end-column="54" />
+            <state vertical-scroll-proportion="-3.949367" vertical-offset="5502" max-vertical-offset="21658">
+              <caret line="402" column="21" selection-start-line="402" selection-start-column="21" selection-end-line="402" selection-end-column="21" />
               <folding>
                 <element signature="e#17158#18859#2" expanded="true" />
                 <element signature="e#19121#20892#2" expanded="true" />
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyframes.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="keyframes.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/keyframes.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.862745" vertical-offset="11431" max-vertical-offset="14501">
-              <caret line="681" column="33" selection-start-line="681" selection-start-column="33" selection-end-line="681" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.35609102" vertical-offset="11515" max-vertical-offset="14501">
+              <caret line="693" column="13" selection-start-line="693" selection-start-column="13" selection-end-line="693" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1343,14 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/keyframes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.862745" vertical-offset="11431" max-vertical-offset="14501">
-          <caret line="681" column="33" selection-start-line="681" selection-start-column="33" selection-end-line="681" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advertiser.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077" vertical-offset="969" max-vertical-offset="7106">
@@ -1361,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65667576" vertical-offset="4516" max-vertical-offset="21658">
-          <caret line="329" column="54" selection-start-line="329" selection-start-column="54" selection-end-line="329" selection-end-column="54" />
+        <state vertical-scroll-proportion="-3.949367" vertical-offset="5502" max-vertical-offset="21658">
+          <caret line="402" column="21" selection-start-line="402" selection-start-column="21" selection-end-line="402" selection-end-column="21" />
           <folding>
             <element signature="e#17158#18859#2" expanded="true" />
             <element signature="e#19121#20892#2" expanded="true" />
@@ -1423,6 +1415,14 @@
             <element signature="e#208326#215687#1" expanded="true" />
             <element signature="e#216209#217474#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/keyframes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35609102" vertical-offset="11515" max-vertical-offset="14501">
+          <caret line="693" column="13" selection-start-line="693" selection-start-column="13" selection-end-line="693" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

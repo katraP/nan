@@ -379,29 +379,29 @@ body {
         -webkit-animation: graphl7 2s;
         -moz-animation: graphl7 2s; }
       .w-us-features-item:hover .i4 .front {
-        animation: pillar_front 5s;
-        -webkit-animation: pillar_front 5s;
-        -moz-animation: pillar_front 5s; }
+        animation: pillar_front 4s;
+        -webkit-animation: pillar_front 4s;
+        -moz-animation: pillar_front 4s; }
       .w-us-features-item:hover .i4 .end {
-        animation: pillar_end 5s;
-        -webkit-animation: pillar_end 5s;
-        -moz-animation: pillar_end 5s; }
+        animation: pillar_end 4s;
+        -webkit-animation: pillar_end 4s;
+        -moz-animation: pillar_end 4s; }
       .w-us-features-item:hover .i4 .label1 {
-        animation: pillar_label1 5s;
-        -webkit-animation: pillar_label1 5s;
-        -moz-animation: pillar_label1 5s; }
+        animation: pillar_label1 4s;
+        -webkit-animation: pillar_label1 4s;
+        -moz-animation: pillar_label1 4s; }
       .w-us-features-item:hover .i4 .label2 {
-        animation: pillar_label2 5s;
-        -webkit-animation: pillar_label2 5s;
-        -moz-animation: pillar_label2 5s; }
+        animation: pillar_label2 4s;
+        -webkit-animation: pillar_label2 4s;
+        -moz-animation: pillar_label2 4s; }
       .w-us-features-item:hover .i4 .w1, .w-us-features-item:hover .i4 .w4 {
-        animation: white1 5s;
-        -webkit-animation: white1 5s;
-        -moz-animation: white1 5s; }
+        animation: white1 4s;
+        -webkit-animation: white1 4s;
+        -moz-animation: white1 4s; }
       .w-us-features-item:hover .i4 .w2, .w-us-features-item:hover .i4 .w3 {
-        animation: white2 5s;
-        -webkit-animation: white2 5s;
-        -moz-animation: white2 5s; }
+        animation: white2 4s;
+        -webkit-animation: white2 4s;
+        -moz-animation: white2 4s; }
     .w-us-features-icon {
       text-align: center;
       padding-bottom: 20px;

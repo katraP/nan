@@ -396,22 +396,22 @@ body {
 				}
 				.i4 {
 					.front {
-						@include animation(pillar_front 5s)
+						@include animation(pillar_front 4s)
 					}
 					.end {
-						@include animation(pillar_end 5s)
+						@include animation(pillar_end 4s)
 					}
 					.label1 {
-						@include animation(pillar_label1 5s);
+						@include animation(pillar_label1 4s);
 					}
 					.label2 {
-						@include animation(pillar_label2 5s);
+						@include animation(pillar_label2 4s);
 					}
 					.w1, .w4 {
-						@include animation(white1 5s);
+						@include animation(white1 4s);
 					}
 					.w2, .w3 {
-						@include animation(white2 5s);
+						@include animation(white2 4s);
 					}
 				}
 			}
