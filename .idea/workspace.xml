@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61035424" vertical-offset="11843" max-vertical-offset="19159">
-              <caret line="954" column="31" selection-start-line="954" selection-start-column="31" selection-end-line="954" selection-end-column="31" />
+            <state vertical-scroll-proportion="-3.734177" vertical-offset="11843" max-vertical-offset="19159">
+              <caret line="945" column="38" selection-start-line="945" selection-start-column="38" selection-end-line="945" selection-end-column="38" />
               <folding>
                 <element signature="e#17158#18859#2" expanded="true" />
                 <element signature="e#19121#20892#2" expanded="true" />
@@ -106,18 +106,18 @@
       <file leaf-file-name="advertiser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advertiser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="408" max-vertical-offset="7038">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state vertical-scroll-proportion="-4.759259" vertical-offset="882" max-vertical-offset="7038">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publisher.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="publisher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publisher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538" vertical-offset="357" max-vertical-offset="6987">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.2888601" vertical-offset="763" max-vertical-offset="6987">
+              <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -137,10 +137,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/publisher.html" />
-        <option value="$PROJECT_DIR$/advertiser.html" />
         <option value="$PROJECT_DIR$/scss/keyframes.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/advertiser.html" />
+        <option value="$PROJECT_DIR$/publisher.html" />
       </list>
     </option>
   </component>
@@ -1242,22 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publisher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="357" max-vertical-offset="6987">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advertiser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="408" max-vertical-offset="7038">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/keyframes.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.862745" vertical-offset="13522" max-vertical-offset="14501">
@@ -1268,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61035424" vertical-offset="11843" max-vertical-offset="19159">
-          <caret line="954" column="31" selection-start-line="954" selection-start-column="31" selection-end-line="954" selection-end-column="31" />
+        <state vertical-scroll-proportion="-3.734177" vertical-offset="11843" max-vertical-offset="19159">
+          <caret line="945" column="38" selection-start-line="945" selection-start-column="38" selection-end-line="945" selection-end-column="38" />
           <folding>
             <element signature="e#17158#18859#2" expanded="true" />
             <element signature="e#19121#20892#2" expanded="true" />
@@ -1329,6 +1313,22 @@
             <element signature="e#194786#202147#1" expanded="true" />
             <element signature="e#202669#203934#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advertiser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.759259" vertical-offset="882" max-vertical-offset="7038">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publisher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2888601" vertical-offset="763" max-vertical-offset="6987">
+          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
