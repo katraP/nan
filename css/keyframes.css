@@ -2141,36 +2141,36 @@
 @-webkit-keyframes star_short {
   0% {
     opacity: 0; }
-  3% {
+  4% {
     opacity: .8; }
-  6% {
+  8% {
     opacity: 0; }
   100% {
     opacity: 0; } }
 @-moz-keyframes star_short {
   0% {
     opacity: 0; }
-  3% {
+  4% {
     opacity: .8; }
-  6% {
+  8% {
     opacity: 0; }
   100% {
     opacity: 0; } }
 @-ms-keyframes star_short {
   0% {
     opacity: 0; }
-  3% {
+  4% {
     opacity: .8; }
-  6% {
+  8% {
     opacity: 0; }
   100% {
     opacity: 0; } }
 @keyframes star_short {
   0% {
     opacity: 0; }
-  3% {
+  4% {
     opacity: .8; }
-  6% {
+  8% {
     opacity: 0; }
   100% {
     opacity: 0; } }

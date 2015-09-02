@@ -117,7 +117,7 @@ body.nonactive {
     .u-header__link:hover, .tech__link:hover, .login__submit:hover {
       background-color: #dddddd;
       color: #172737; }
-  .u-header .star1, .u-header .star2, .u-header .star3, .u-header .star4, .u-header .star5, .u-header .star6, .u-header .star7, .u-header .star8 {
+  .u-header .star1, .u-header .star2, .u-header .star3, .u-header .star4, .u-header .star5, .u-header .star6, .u-header .star7, .u-header .star8, .u-header .star9, .u-header .star10, .u-header .star11, .u-header .star12 {
     position: absolute;
     z-index: 3;
     width: 7px;
@@ -198,6 +198,42 @@ body.nonactive {
     animation: star 7s 1.3s infinite;
     -webkit-animation: star 7s 1.3s infinite;
     -moz-animation: star 7s 1.3s infinite; }
+  .u-header .star9 {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    left: 440px;
+    top: 285px;
+    animation: star 7s 7.3s infinite;
+    -webkit-animation: star 7s 7.3s infinite;
+    -moz-animation: star 7s 7.3s infinite; }
+  .u-header .star10 {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    left: 275px;
+    top: 311px;
+    animation: star_short 7s 8.23s infinite;
+    -webkit-animation: star_short 7s 8.23s infinite;
+    -moz-animation: star_short 7s 8.23s infinite; }
+  .u-header .star11 {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    left: 789px;
+    top: 46px;
+    animation: star_short 5s 3.4s infinite;
+    -webkit-animation: star_short 5s 3.4s infinite;
+    -moz-animation: star_short 5s 3.4s infinite; }
+  .u-header .star12 {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    left: 889px;
+    top: 216px;
+    animation: star_short 7s 2.1s infinite;
+    -webkit-animation: star_short 7s 2.1s infinite;
+    -moz-animation: star_short 7s 2.1s infinite; }
 
 .w-us {
   border-bottom: 1px solid #d4d4d5; }
@@ -908,6 +944,7 @@ body.nonactive {
     font: 16px 'montserratlight', sans-serif;
     padding: 3px 5px;
     vertical-align: middle;
+    border-radius: 3px;
     transition: color 0.5s;
     -webkit-transition: color 0.5s; }
     .footer__link:hover, .footer-social__link:hover {
