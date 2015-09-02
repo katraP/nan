@@ -99,7 +99,7 @@ body {
   .u-header__title {
     font: 50px 'montserratlight', sans-serif;
     color: #eaeaea;
-    padding: 20px 0 37px; }
+    padding: 30px 0 25px; }
   .u-header__link, .tech__link, .login__submit {
     display: inline-block;
     border: 2px solid #ffffff;
