@@ -159,9 +159,9 @@ body.nonactive {
     border-radius: 5px;
     left: 166px;
     top: 381px;
-    animation: star_short 5s 4.76s infinite;
-    -webkit-animation: star_short 5s 4.76s infinite;
-    -moz-animation: star_short 5s 4.76s infinite; }
+    animation: star_short 5s 1.7s infinite;
+    -webkit-animation: star_short 5s 1.7s infinite;
+    -moz-animation: star_short 5s 1.7s infinite; }
   .u-header .star5 {
     width: 5px;
     height: 4px;

@@ -185,7 +185,7 @@ body {
 		border-radius: 5px;
 		left: 166px;
 		top: 381px;
-		@include animation(star_short 5s 4.76s infinite);
+		@include animation(star_short 5s 1.7s infinite);
 	}
 	.star5 {
 		width: 5px;
