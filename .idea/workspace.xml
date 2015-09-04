@@ -28,8 +28,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.126582" vertical-offset="20346" max-vertical-offset="22236">
-              <caret line="1343" column="22" selection-start-line="1343" selection-start-column="22" selection-end-line="1343" selection-end-column="22" />
+            <state vertical-scroll-proportion="7.278481" vertical-offset="21111" max-vertical-offset="22236">
+              <caret line="1335" column="44" selection-start-line="1335" selection-start-column="44" selection-end-line="1335" selection-end-column="44" />
               <folding>
                 <element signature="e#17158#18859#2" expanded="true" />
                 <element signature="e#19121#20892#2" expanded="true" />
@@ -138,8 +138,8 @@
       <file leaf-file-name="publisher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publisher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5531088" vertical-offset="3398" max-vertical-offset="7684">
-              <caret line="225" column="34" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.63860106" vertical-offset="510" max-vertical-offset="7684">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -1551,10 +1551,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../rme/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="12359">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.126582" vertical-offset="20346" max-vertical-offset="22236">
-          <caret line="1343" column="22" selection-start-line="1343" selection-start-column="22" selection-end-line="1343" selection-end-column="22" />
+        <state vertical-scroll-proportion="7.278481" vertical-offset="21111" max-vertical-offset="22236">
+          <caret line="1335" column="44" selection-start-line="1335" selection-start-column="44" selection-end-line="1335" selection-end-column="44" />
           <folding>
             <element signature="e#17158#18859#2" expanded="true" />
             <element signature="e#19121#20892#2" expanded="true" />
@@ -1617,18 +1625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rme/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="12359">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publisher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5531088" vertical-offset="3398" max-vertical-offset="7684">
-          <caret line="225" column="34" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.63860106" vertical-offset="510" max-vertical-offset="7684">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding />
         </state>
       </provider>
