@@ -6,9 +6,12 @@ li {
   list-style-type: none; }
 
 body {
-  min-width: 1005px; }
+  min-width: 1005px;
+  width: 100%; }
   body.nonactive {
     overflow-y: hidden; }
+    body.nonactive .login-layer {
+      overflow-y: scroll; }
 
 .content-block {
   width: 100%;
@@ -875,7 +878,7 @@ body {
   background-color: #f4f2f2;
   padding: 7px 5px;
   font: 14px 'montserratlight', sans-serif;
-  color: #c6d0da;
+  color: #333333;
   margin-bottom: 11px;
   box-sizing: border-box;
   width: 100%; }
@@ -1025,7 +1028,7 @@ textarea.contact__field {
   min-height: 105px; }
 
 .login-layer {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   display: none;
@@ -1043,8 +1046,7 @@ textarea.contact__field {
 .login-container {
   background-color: #ffffff;
   width: 450px;
-  height: 500px;
-  margin: 40px auto auto;
+  margin: 40px auto 40px;
   position: relative;
   text-align: center; }
   .login-container .close {
@@ -1079,8 +1081,10 @@ textarea.contact__field {
   padding-bottom: 20px; }
 .login__label {
   display: inline-block;
-  font: 17px 'montserratlight', sans-serif;
+  font: 16px 'montserratlight', sans-serif;
   text-align: right;
+  vertical-align: top;
+  padding-top: 7px;
   color: #333333;
   width: 120px;
   margin-left: -125px; }
@@ -1094,7 +1098,7 @@ textarea.contact__field {
   background-color: #f4f2f2;
   padding: 7px 5px;
   font: 14px 'montserratlight', sans-serif;
-  color: #c6d0da;
+  color: #333333;
   border-radius: 3px;
   margin-left: 5px;
   width: 200px;
@@ -1110,7 +1114,8 @@ textarea.contact__field {
   padding: 10px 35px;
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: auto; }
 .login__link {
   text-decoration: none;
   color: #00afe2;
@@ -1121,14 +1126,10 @@ textarea.contact__field {
   color: #fff;
   font: 21px 'montserratregular', sans-serif; }
 
-.login, .sign {
-  opacity: 0;
-  transition: opacity .5s;
-  -webkit-transition: opacity .5s; }
-  .login.active, .sign.active {
-    opacity: 1; }
-
 .publisher .login__advertise {
+  display: none; }
+
+.advertise .login__publisher {
   display: none; }
 
 .contacts-line {

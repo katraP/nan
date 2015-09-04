@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/keyframes.css"/>
         <link rel="stylesheet" href="css/main.css"/>
     </head>
-<body>
+<body class="advertise">
     <header class="header">
         <div class="content-block clearfix">
             <div class="header-login">
@@ -44,8 +44,15 @@
             <div class="u-header__title">
                 Leading Ad Network
             </div>
+            <div class="u-header__text">
+                NextAdNet provides thousands of web businesses with a profitable and<br>handy solution for obtaining online visitors and monetize their online presence
+            </div>
+            <div class="u-header-links">
+                <a href="publisher.html#signup" class="u-header__link">Monetize</a>
+                <span class="u-header__separator">or</span>
+                <span class="u-header__link sign__link">Advertise</span>
+            </div>
             <span class="u-header__arrow"></span>
-            <a href="#" class="u-header__link">Join now</a>
             <span class="star1"></span>
             <span class="star2"></span>
             <span class="star3"></span>
@@ -207,7 +214,9 @@
                 </li>
             </ul>
             <div class="tech-link-block">
-               <a href="#" class="tech__link">Join now</a>
+                <a href="publisher.html#signup" class="tech__link">Monetize</a>
+                <span class="tech__separator">or</span>
+                <span class="tech__link sign__link">Advertise</span>
             </div>
         </div>
     </section>
@@ -347,13 +356,13 @@
             </div>
         </div>
     </footer>
-    <div class="login-layer">
+    <div class="login-layer login-area">
         <div class="login-container">
             <span class="close">&times</span>
             <div class="login-toggle">
-                <span class="login__but active">Login</span> <span class="sign__but">Signup</span>
+                <span class="login__publisher active">Publisher login</span> <span class="login__advertise">Advertiser login</span>
             </div>
-            <form action="" class="login-form login active">
+            <form action="" class="login-form">
                 <div class="login-line">
                     <label class="login__label" for="email">E-mail:</label> <input type="text" id="email" placeholder="      @" class="login__field"/>
                 </div>
@@ -370,7 +379,15 @@
                     <a href="#" class="login__link">Forgot your password?</a>
                 </div>
             </form>
-            <form action="" class="login-form sign">
+        </div>
+    </div>
+    <div class="login-layer sign-area">
+        <div class="login-container">
+            <span class="close">&times</span>
+            <div class="login-toggle">
+                <span class="login__publisher active">Publisher signup</span> <span class="login__advertise">Advertiser signup</span>
+            </div>
+            <form action="" class="login-form">
                 <div class="login-line">
                     <label class="login__label" for="email">E-mail:</label> <input type="text" id="email" placeholder="      @" class="login__field"/>
                 </div>
@@ -390,6 +407,20 @@
                         </select>
                         <input type="text" id="contacts" placeholder="Enter your valid contacts" class="login__field"/>
                     </div>
+                </div>
+                <div class="login-line">
+                    <label class="login__label" for="area">Area:</label>
+                    <div class="contacts-line">
+                        <select name="" id="area" class="login__field">
+                            <option value="0">Ukraine</option>
+                            <option value="1">Poland</option>
+                            <option value="2">Lithuania</option>
+                            <option value="3">Russia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="login-line">
+                    <label class="login__label" for="phone">Phone:</label> <input type="password" id="phone" placeholder="Enter your phone number" class="login__field"/>
                 </div>
                 <div class="login__line">
                     <label class="login__label--terms">

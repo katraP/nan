@@ -27,6 +27,14 @@ $(function(){
     $('.button-top').click(function(){
         $('body, html').animate({scrollTop: 0}, 500);
     });
+
+    function openLoginPopup(el) {
+        $('body').addClass('nonactive');
+        $(el).css('display', 'block');
+        setTimeout(function(){
+            $(el).addClass('active');
+        }, 10);
+    }
     function closeLoginPopup(){
         $('body').removeClass('nonactive');
         $('.login-layer').removeClass('active');
@@ -34,12 +42,11 @@ $(function(){
             $('.login-layer').css('display', 'none');
         }, 700);
     }
+    $('.sign__link').click(function(){
+        openLoginPopup('.sign-area');
+    });
     $('.header-login__toggle').on('click', function(){
-       $('body').addClass('nonactive');
-        $('.login-layer').css('display', 'block');
-        setTimeout(function(){
-            $('.login-layer').addClass('active');
-        }, 10);
+        openLoginPopup('.login-area');
     });
     $('.close, .login-layer').on('click', function(){
         closeLoginPopup();
@@ -82,4 +89,19 @@ $(function(){
         e.stopPropagation();
         return false;
     });
+    function popupLayer() {
+        var siteUrl = location.href;
+        console.log(siteUrl);
+        if(siteUrl.indexOf('#login') !=-1) {
+            console.log('ura');
+            openLoginPopup('.login-area');
+        }
+        else if(siteUrl.indexOf('#signup') !=-1) {
+            openLoginPopup('.sign-area');
+        }
+        else {
+            return false;
+        }
+    }
+    popupLayer();
 })
