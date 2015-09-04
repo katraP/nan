@@ -117,33 +117,39 @@ body {
 	position: relative;
 	.content-block {
 		text-align: center;
-		padding: 65px 0;
+		padding: 45px 0;
 		position: relative;
 	}
 	&__title {
 		font: 50px 'montserratlight', sans-serif;
 		color: #eaeaea;
-		padding: 30px 0 25px
+		padding: 30px 0 20px
 	}
-//	&__arrow {
-//		display: block;
-//		margin: auto;
-//		width: 59px;
-//		height: 18px;
-//		position: relative;
-//		@include animation(arr 1s .5s infinite);
-//		background-repeat: no-repeat;
-//		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAASCAYAAADlhqZNAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkEwOTc3N0FBNTE2QzExRTVCREQ0OTg4MzU1MDM0NzM0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkEwOTc3N0FCNTE2QzExRTVCREQ0OTg4MzU1MDM0NzM0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTA5Nzc3QTg1MTZDMTFFNUJERDQ5ODgzNTUwMzQ3MzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTA5Nzc3QTk1MTZDMTFFNUJERDQ5ODgzNTUwMzQ3MzQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4OzzVFAAAB1UlEQVR42tyXPywDcRTHW0XaaNIOHXTAQAdhEYvUVIONDRsbNkY2EgsmRjphk07EVGIymFiwXBeGVtImbVLRNHq+P3kXl/OuvWvvTtuXfJJef/f+fNP+fu/9XLIsu8AuiNHndiIKrsGUeBZfTMq/lgQTbSByHFyqdN0pYm/lv3YBxlpQ5Ag4BxVGU0y8MA3umcUKOQ63gMghcAq+GB2PYEb5ZQVuMEsLWhMBTsBgE4rsB0egzNT9DOZBh/K+1lksLIAXxrlMgfuaQGQvOAQlps4UWAIerZ9esE5ySDHBPsEBJXRaZIg6R5Gp6xWsgG49/1rBheMqeGOCFylxyAGRAbAF8kwdGbAOfLXiGE3mo4AZJlmeCgnYILIHbIAskzcHNoHfaDyzyf2UIMckz1JhfgtEesEaSDN5CmAbBM3GrbeYICUsMMWkqVBvHXG7wDLtP619gP1Gto0VB8YeFWL6wFAhTs5FIDFxSnTyhhv9x1i1t8JVWoFEQjyMn+jvc+BJp9XFwYBVZ4AdTf7YYJMXU82DzhBzBiJWH3h2tYpIlfFN0hlaxHiaAKN2tTAnBvOEzmCutiu6qdhaz39duRS7oSumI3W4fxQ7Z1GwA95BHCSdTP4twABYNIR7gc5BCgAAAABJRU5ErkJggg==);
-//	}
+	&__text {
+		color: #eaeaea;
+		font: 17px/160% 'montserratlight', sans-serif;
+	}
+	&__separator {
+		color: #eaeaea;
+		vertical-align: middle;
+		font: 25px 'montserratlight', sans-serif;
+		margin: 0 10px;
+	}
+	&-links {
+		margin-top: 25px;
+	}
 	&__link {
 		display: inline-block;
+		cursor: pointer;
 		border: 2px solid #ffffff;
 		border-radius: 7px;
-		padding: 15px 40px;
+		padding: 13px 0;
 		font: 25px 'montserratlight', sans-serif;
 		color: #eaeaea;
+		width: 180px;
+		text-align: center;
 		text-decoration: none;
-		margin-top: 25px;
+		vertical-align: middle;
 		@include transition(background-color .7s, color .7s);
 		&:hover {
 			background-color: #dddddd;
@@ -938,6 +944,7 @@ body {
 	}
 	&-link-block {
 		text-align: center;
+		padding-top: 15px;
 	}
 	&__link {
 		@extend .u-header__link;
@@ -947,6 +954,9 @@ body {
 			background-color:$blueColor;
 			color: #ffffff;
 		}
+	}
+	&__separator {
+		@extend .w-us-links__separator;
 	}
 }
 .about {
@@ -1263,9 +1273,8 @@ textarea.contact__field {
 	}
 	&-container {
 		background-color: #ffffff;
-		width: 600px;
+		width: 300px;
 		height: 500px;
-		padding: 50px;
 		margin: 40px auto auto;
 		position: relative;
 		text-align: center;
@@ -1293,6 +1302,10 @@ textarea.contact__field {
 	}
 	&-toggle {
 		text-align: center;
+		background-color: $blueColor;
+		color: #ffffff;
+		padding: 11px 0;
+		font: 21px 'montserratregular', sans-serif;
 	}
 	&-form {
 		margin-top: 60px;
@@ -1348,6 +1361,10 @@ textarea.contact__field {
 			text-decoration: underline;
 		}
 	}
+	.publisher, .sign {
+		color: #fff;
+		font: 21px 'montserratregular', sans-serif;
+	}
 }
 .login, .sign {
 	opacity: 0;
@@ -1357,25 +1374,10 @@ textarea.contact__field {
 		opacity: 1;
 	}
 }
-.login, .sign {
-	&__but {
-		color: #333333;
-		font: 18px 'montserratlight', sans-serif;
-		display: inline-block;
-		padding: 10px 25px;
-		background-color: #ffffff;
-		transition: background-color .7s, color .7s;
-		-webkit-transition: background-color .7s, color .7s;
-		border-radius: 5px;
-		&:hover, &.active {
-			background-color: #556d7f;
-			color: #ffffff;
-			cursor: pointer;
-		}
+.publisher {
+	.login__advertise {
+		display: none;
 	}
-}
-.sign__but {
-	margin-left: 15px;
 }
 .contacts {
 	&-line {

@@ -94,21 +94,34 @@ body {
   position: relative; }
   .u-header .content-block {
     text-align: center;
-    padding: 65px 0;
+    padding: 45px 0;
     position: relative; }
   .u-header__title {
     font: 50px 'montserratlight', sans-serif;
     color: #eaeaea;
-    padding: 30px 0 25px; }
+    padding: 30px 0 20px; }
+  .u-header__text {
+    color: #eaeaea;
+    font: 17px/160% 'montserratlight', sans-serif; }
+  .u-header__separator {
+    color: #eaeaea;
+    vertical-align: middle;
+    font: 25px 'montserratlight', sans-serif;
+    margin: 0 10px; }
+  .u-header-links {
+    margin-top: 25px; }
   .u-header__link, .tech__link, .login__submit {
     display: inline-block;
+    cursor: pointer;
     border: 2px solid #ffffff;
     border-radius: 7px;
-    padding: 15px 40px;
+    padding: 13px 0;
     font: 25px 'montserratlight', sans-serif;
     color: #eaeaea;
+    width: 180px;
+    text-align: center;
     text-decoration: none;
-    margin-top: 25px;
+    vertical-align: middle;
     transition: background-color 0.7s, color 0.7s;
     -webkit-transition: background-color 0.7s, color 0.7s; }
     .u-header__link:hover, .tech__link:hover, .login__submit:hover {
@@ -241,7 +254,7 @@ body {
   .w-us-links {
     text-align: center;
     padding: 30px 0; }
-    .w-us-links__separator {
+    .w-us-links__separator, .tech__separator {
       color: #8e8f90;
       vertical-align: middle;
       font: 25px 'montserratlight', sans-serif;
@@ -783,7 +796,8 @@ body {
     font: 41px 'montserratultra_light', sans-serif;
     color: #435870; }
   .tech-link-block {
-    text-align: center; }
+    text-align: center;
+    padding-top: 15px; }
   .tech__link, .login__submit {
     color: #00afe2;
     border-color: #00afe2; }
@@ -1028,9 +1042,8 @@ textarea.contact__field {
     opacity: 1; }
 .login-container {
   background-color: #ffffff;
-  width: 600px;
+  width: 300px;
   height: 500px;
-  padding: 50px;
   margin: 40px auto auto;
   position: relative;
   text-align: center; }
@@ -1054,7 +1067,11 @@ textarea.contact__field {
       background-color: #3e5368;
       color: #fff; }
 .login-toggle {
-  text-align: center; }
+  text-align: center;
+  background-color: #00afe2;
+  color: #ffffff;
+  padding: 11px 0;
+  font: 21px 'montserratregular', sans-serif; }
 .login-form {
   margin-top: 60px;
   text-align: center; }
@@ -1098,6 +1115,9 @@ textarea.contact__field {
   font: 14px 'montserratlight', sans-serif; }
   .login__link:hover {
     text-decoration: underline; }
+.login .publisher, .login .sign {
+  color: #fff;
+  font: 21px 'montserratregular', sans-serif; }
 
 .login, .sign {
   opacity: 0;
@@ -1106,22 +1126,8 @@ textarea.contact__field {
   .login.active, .sign.active {
     opacity: 1; }
 
-.login__but, .sign__but {
-  color: #333333;
-  font: 18px 'montserratlight', sans-serif;
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: #ffffff;
-  transition: background-color .7s, color .7s;
-  -webkit-transition: background-color .7s, color .7s;
-  border-radius: 5px; }
-  .login__but:hover, .login__but.active, .sign__but:hover, .sign__but.active {
-    background-color: #556d7f;
-    color: #ffffff;
-    cursor: pointer; }
-
-.sign__but {
-  margin-left: 15px; }
+.publisher .login__advertise {
+  display: none; }
 
 .contacts-line {
   margin-left: -4px;
