@@ -127,7 +127,7 @@ $(function(){
            }, 14000)
        }
         if($(this).scrollTop() >= $('.about-presentation__link').offset().top) {
-            animationOn('.contact__link', 700);
+            animationOn('.contact__link', 1000);
         }
     });
 

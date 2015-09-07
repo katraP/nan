@@ -43,6 +43,7 @@ body {
 }
 .header {
 	background-color: #ffffff;
+	border-bottom: 5px solid #354f66;
 	.content-block {
 		padding: 15px 0;
 	}
@@ -120,6 +121,7 @@ body {
 .u-header {
 	background: url(../images/space.jpg) center no-repeat #162737;
 	position: relative;
+	min-height: 448px;
 	.content-block {
 		text-align: center;
 		padding: 40px 0;

@@ -26,7 +26,8 @@ body {
   clear: both; }
 
 .header {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-bottom: 5px solid #354f66; }
   .header .content-block {
     padding: 15px 0; }
   .header__logo {
@@ -94,7 +95,8 @@ body {
 
 .u-header {
   background: url(../images/space.jpg) center no-repeat #162737;
-  position: relative; }
+  position: relative;
+  min-height: 448px; }
   .u-header .content-block {
     text-align: center;
     padding: 40px 0;
