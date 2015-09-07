@@ -27,7 +27,23 @@ $(function(){
     $('.button-top').click(function(){
         $('body, html').animate({scrollTop: 0}, 500);
     });
+    function animationOn(el, time) {
+        var scope = $(el);
 
+        scope.each(function(i){
+            var self = $(this);
+            if(!self.hasClass('finished')) {
+                setTimeout(function(){
+                   self.addClass('active').addClass('finished');
+                }, i*time);
+                if(self.hasClass('backstate')) {
+                    setTimeout(function(){
+                       self.removeClass('active');
+                    }, i*time + time/1.5);
+                }
+            }
+        });
+    }
     function openLoginPopup(el) {
         $('body').addClass('nonactive');
         $(el).css('display', 'block');
@@ -87,7 +103,7 @@ $(function(){
     });
     $('.login-container').click(function(e){
         e.stopPropagation();
-        return false;
+        //return false;
     });
     function popupLayer() {
         var siteUrl = location.href;
@@ -104,4 +120,14 @@ $(function(){
         }
     }
     popupLayer();
+    $(window).on('scroll', function(){
+        //console.log($(this).scrollTop());
+       if($(this).scrollTop() >= $('.w-us__title').offset().top) {
+            animationOn('.w-us-features-item', 3000);
+       }
+        if($(this).scrollTop() >= $('.about-presentation__link').offset().top) {
+            animationOn('.contact__link', 700);
+        }
+    });
+
 })
