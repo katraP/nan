@@ -32,15 +32,13 @@ $(function(){
 
         scope.each(function(i){
             var self = $(this);
-            if(!self.hasClass('finished')) {
+            setTimeout(function(){
+               self.addClass('active');
+            }, i*time);
+            if(self.hasClass('backstate')) {
                 setTimeout(function(){
-                   self.addClass('active').addClass('finished');
-                }, i*time);
-                if(self.hasClass('backstate')) {
-                    setTimeout(function(){
-                       self.removeClass('active');
-                    }, i*time + time/1.5);
-                }
+                   self.removeClass('active');
+                }, i*time + time);
             }
         });
     }
@@ -126,7 +124,7 @@ $(function(){
             animationOn('.w-us-features-item', 3000);
            setInterval(function(){
                animationOn('.w-us-features-item', 3000);
-           }, 12000)
+           }, 14000)
        }
         if($(this).scrollTop() >= $('.about-presentation__link').offset().top) {
             animationOn('.contact__link', 700);
