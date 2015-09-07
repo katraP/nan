@@ -124,6 +124,9 @@ $(function(){
         //console.log($(this).scrollTop());
        if($(this).scrollTop() >= $('.w-us__title').offset().top) {
             animationOn('.w-us-features-item', 3000);
+           setInterval(function(){
+               animationOn('.w-us-features-item', 3000);
+           }, 12000)
        }
         if($(this).scrollTop() >= $('.about-presentation__link').offset().top) {
             animationOn('.contact__link', 700);
