@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42572463" vertical-offset="6259" max-vertical-offset="23154">
-              <caret line="417" column="54" selection-start-line="417" selection-start-column="54" selection-end-line="417" selection-end-column="54" />
+            <state vertical-scroll-proportion="-2.7594936" vertical-offset="6208" max-vertical-offset="23154">
+              <caret line="413" column="28" selection-start-line="413" selection-start-column="28" selection-end-line="413" selection-end-column="28" />
               <folding>
                 <element signature="e#17275#18976#2" expanded="true" />
                 <element signature="e#19238#21009#2" expanded="true" />
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="2346">
-              <caret line="129" column="48" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.39285713" vertical-offset="1736" max-vertical-offset="2397">
+              <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
               <folding>
                 <element signature="e#0#54#0" expanded="false" />
               </folding>
@@ -105,8 +105,8 @@
       <file leaf-file-name="additional_scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../eotc/js/additional_scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3519">
-              <caret line="138" column="45" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="3519">
+              <caret line="140" column="34" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
       <file leaf-file-name="publisher.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publisher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6851852" vertical-offset="4530" max-vertical-offset="7480">
-              <caret line="275" column="75" selection-start-line="275" selection-start-column="75" selection-end-line="275" selection-end-column="75" />
+            <state vertical-scroll-proportion="-1.8888888" vertical-offset="0" max-vertical-offset="7497">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -135,8 +135,8 @@
       <file leaf-file-name="advertiser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advertiser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9444444" vertical-offset="4615" max-vertical-offset="7701">
-              <caret line="284" column="87" selection-start-line="284" selection-start-column="87" selection-end-line="284" selection-end-column="87" />
+            <state vertical-scroll-proportion="-2.2037036" vertical-offset="0" max-vertical-offset="7718">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -155,11 +155,11 @@
         <option value="$PROJECT_DIR$/scss/fonts.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
+        <option value="$PROJECT_DIR$/scss/keyframes.scss" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/publisher.html" />
         <option value="$PROJECT_DIR$/advertiser.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/scss/keyframes.scss" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -1479,40 +1479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../eotc/js/additional_scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3519">
-          <caret line="138" column="45" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advertiser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9444444" vertical-offset="4615" max-vertical-offset="7701">
-          <caret line="284" column="87" selection-start-line="284" selection-start-column="87" selection-end-line="284" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="2346">
-          <caret line="129" column="48" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publisher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6851852" vertical-offset="4530" max-vertical-offset="7480">
-          <caret line="275" column="75" selection-start-line="275" selection-start-column="75" selection-end-line="275" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/keyframes.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.627451" vertical-offset="12208" max-vertical-offset="14688">
@@ -1523,8 +1489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42572463" vertical-offset="6259" max-vertical-offset="23154">
-          <caret line="417" column="54" selection-start-line="417" selection-start-column="54" selection-end-line="417" selection-end-column="54" />
+        <state vertical-scroll-proportion="-2.7594936" vertical-offset="6208" max-vertical-offset="23154">
+          <caret line="413" column="28" selection-start-line="413" selection-start-column="28" selection-end-line="413" selection-end-column="28" />
           <folding>
             <element signature="e#17275#18976#2" expanded="true" />
             <element signature="e#19238#21009#2" expanded="true" />
@@ -1580,6 +1546,40 @@
             <element signature="e#215018#216283#1" expanded="true" />
             <element signature="e#219245#220838#2" expanded="true" />
             <element signature="e#220940#222679#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eotc/js/additional_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="3519">
+          <caret line="140" column="34" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publisher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8888888" vertical-offset="0" max-vertical-offset="7497">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advertiser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2037036" vertical-offset="0" max-vertical-offset="7718">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39285713" vertical-offset="1736" max-vertical-offset="2397">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
           </folding>
         </state>
       </provider>

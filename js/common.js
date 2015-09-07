@@ -118,15 +118,18 @@ $(function(){
         }
     }
     popupLayer();
+    var animationTrigger = true, contactsAnimationTrigger = true;
     $(window).on('scroll', function(){
         //console.log($(this).scrollTop());
-       if($(this).scrollTop() >= $('.w-us__title').offset().top) {
+       if($(this).scrollTop() >= $('.u-header__text').offset().top && animationTrigger == true) {
+           animationTrigger = false;
             animationOn('.w-us-features-item', 3000);
            setInterval(function(){
                animationOn('.w-us-features-item', 3000);
            }, 14000)
        }
-        if($(this).scrollTop() >= $('.about-presentation__link').offset().top) {
+        if($(this).scrollTop() >= $('.about-presentation__link').offset().top && contactsAnimationTrigger == true) {
+            contactsAnimationTrigger = false;
             animationOn('.contact__link', 1000);
         }
     });
