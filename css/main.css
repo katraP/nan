@@ -27,7 +27,7 @@ body {
 
 .header {
   background-color: #ffffff;
-  border-bottom: 5px solid #354f66; }
+  border-bottom: 3px solid #354f66; }
   .header .content-block {
     padding: 15px 0; }
   .header__logo {
