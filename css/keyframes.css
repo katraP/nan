@@ -41,17 +41,22 @@
 @-ms-keyframes arrow {
   0% {
      transform: scale(0,0);
-     -webkit-transform: scale(0,0);; }
+     -webkit-transform: scale(0,0); }
   100% {
      transform: scale(1,1);
     -webkit-transform: scale(1,1); } }
 @keyframes arrow {
   0% {
     transform: scale(0,0);
-    -webkit-transform: scale(0,0);}}
+    -webkit-transform: scale(0,0);
+    left: 144px;
+  }
   100% {
     transform: scale(1,1);
-    -webkit-transform: scale(1,1);}} }
+    -webkit-transform: scale(1,1);
+    left: 96px;
+  }
+  }
 @-webkit-keyframes green-pillar-p1 {
   0% {
     bottom: -45px; }
