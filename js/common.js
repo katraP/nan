@@ -120,7 +120,7 @@ $(function(){
     popupLayer();
     var animationTrigger = true, contactsAnimationTrigger = true;
     $(window).on('scroll', function(){
-        //console.log($(this).scrollTop());
+
        if($(this).scrollTop() >= $('.u-header__text').offset().top && animationTrigger == true) {
            animationTrigger = false;
             animationOn('.w-us-features-item', 3000);
