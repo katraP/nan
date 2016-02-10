@@ -40,9 +40,11 @@
     width: 63px; } }
 @-ms-keyframes arrow {
   0% {
-    width: 0; }
+     transform: scale(0,0);
+     -webkit-transform: scale(0,0);; }
   100% {
-    width: 63px; } }
+     transform: scale(1,1);
+    -webkit-transform: scale(1,1); } }
 @keyframes arrow {
   0% {
     transform: scale(0,0);
