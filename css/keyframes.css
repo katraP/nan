@@ -45,9 +45,11 @@
     width: 63px; } }
 @keyframes arrow {
   0% {
-    width: 0; }
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);}}
   100% {
-    width: 63px; } }
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);}} }
 @-webkit-keyframes green-pillar-p1 {
   0% {
     bottom: -45px; }
