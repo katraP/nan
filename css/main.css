@@ -384,17 +384,17 @@ body {
         -webkit-animation: arrow 2s;
         -moz-animation: arrow 2s; }
       .w-us-features-item.active .green-pillar.p1 {
-        animation: green-pillar-p1 3s;
-        -webkit-animation: green-pillar-p1 3s;
-        -moz-animation: green-pillar-p1 3s; }
+        animation: green-pillar-p1 2.5s;
+        -webkit-animation: green-pillar-p1 2.5s;
+        -moz-animation: green-pillar-p1 2.5s; }
       .w-us-features-item.active .green-pillar.p2 {
-        animation: green-pillar-p2 3s;
-        -webkit-animation: green-pillar-p2 3s;
-        -moz-animation: green-pillar-p2 3s; }
+        animation: green-pillar-p2 2.2s;
+        -webkit-animation: green-pillar-p2 2.2s;
+        -moz-animation: green-pillar-p2 2.2s; }
       .w-us-features-item.active .green-pillar.p3 {
-        animation: green-pillar-p3 2.5s;
-        -webkit-animation: green-pillar-p3 2.5s;
-        -moz-animation: green-pillar-p3 2.5s; }
+        animation: green-pillar-p3 2.2s;
+        -webkit-animation: green-pillar-p3 2.2s;
+        -moz-animation: green-pillar-p3 2.2s; }
       .w-us-features-item.active .green-pillar.p4 {
         animation: green-pillar-p4 2s;
         -webkit-animation: green-pillar-p4 2s;

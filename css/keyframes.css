@@ -28,11 +28,9 @@
     -webkit-transform: rotate(360deg); } }
 @-webkit-keyframes arrow {
   0% {
-    transform: scale(0,0);
-    -webkit-transform: scale(0,0);}
+    width: 0; }
   100% {
-    transform: scale(1,1);
-    -webkit-transform: scale(1,1);} }
+    width: 63px; } }
 @-moz-keyframes arrow {
   0% {
     width: 0; }
@@ -40,23 +38,14 @@
     width: 63px; } }
 @-ms-keyframes arrow {
   0% {
-     transform: scale(0,0);
-     -webkit-transform: scale(0,0); }
+    width: 0; }
   100% {
-     transform: scale(1,1);
-    -webkit-transform: scale(1,1); } }
+    width: 63px; } }
 @keyframes arrow {
   0% {
-    transform: scale(0,0);
-    -webkit-transform: scale(0,0);
-    left: 70px;
-  }
+    width: 0; }
   100% {
-    transform: scale(1,1);
-    -webkit-transform: scale(1,1);
-    left: 96px;
-  }
-  }
+    width: 63px; } }
 @-webkit-keyframes green-pillar-p1 {
   0% {
     bottom: -45px; }
