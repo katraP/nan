@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79726654">
-              <caret line="430" column="68" selection-start-line="430" selection-start-column="68" selection-end-line="430" selection-end-column="68" />
+            <state vertical-scroll-proportion="19.8">
+              <caret line="416" column="16" selection-start-line="416" selection-start-column="16" selection-end-line="416" selection-end-column="16" />
               <folding>
                 <element signature="e#17275#18976#2" expanded="true" />
                 <element signature="e#19238#21009#2" expanded="true" />
@@ -115,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publisher.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="publisher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publisher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3756906">
+              <caret line="139" column="51" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -135,10 +135,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/publisher.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/scss/keyframes.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/publisher.html" />
       </list>
     </option>
   </component>
@@ -1520,14 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publisher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/keyframes.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32864675">
@@ -1546,8 +1538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79726654">
-          <caret line="430" column="68" selection-start-line="430" selection-start-column="68" selection-end-line="430" selection-end-column="68" />
+        <state vertical-scroll-proportion="19.8">
+          <caret line="416" column="16" selection-start-line="416" selection-start-column="16" selection-end-line="416" selection-end-column="16" />
           <folding>
             <element signature="e#17275#18976#2" expanded="true" />
             <element signature="e#19238#21009#2" expanded="true" />
@@ -1610,6 +1602,14 @@
             <element signature="e#248202#249795#2" expanded="true" />
             <element signature="e#249897#251636#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publisher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3756906">
+          <caret line="139" column="51" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
