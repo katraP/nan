@@ -384,29 +384,29 @@ body {
         -webkit-animation: arrow 2s;
         -moz-animation: arrow 2s; }
       .w-us-features-item.active .green-pillar.p1 {
-        animation: green-pillar-p1 2.5s;
-        -webkit-animation: green-pillar-p1 2.5s;
-        -moz-animation: green-pillar-p1 2.5s; }
+        animation: green-pillar-p1 2.5s linear;
+        -webkit-animation: green-pillar-p1 2.5s linear;
+        -moz-animation: green-pillar-p1 2.5s linear; }
       .w-us-features-item.active .green-pillar.p2 {
-        animation: green-pillar-p2 2.2s;
-        -webkit-animation: green-pillar-p2 2.2s;
-        -moz-animation: green-pillar-p2 2.2s; }
+        animation: green-pillar-p2 2.2s linear;
+        -webkit-animation: green-pillar-p2 2.2s linear;
+        -moz-animation: green-pillar-p2 2.2s linear; }
       .w-us-features-item.active .green-pillar.p3 {
-        animation: green-pillar-p3 2.2s;
-        -webkit-animation: green-pillar-p3 2.2s;
-        -moz-animation: green-pillar-p3 2.2s; }
+        animation: green-pillar-p3 2.2s linear;
+        -webkit-animation: green-pillar-p3 2.2s linear;
+        -moz-animation: green-pillar-p3 2.2s linear; }
       .w-us-features-item.active .green-pillar.p4 {
-        animation: green-pillar-p4 2s;
-        -webkit-animation: green-pillar-p4 2s;
-        -moz-animation: green-pillar-p4 2s; }
+        animation: green-pillar-p4 2s linear;
+        -webkit-animation: green-pillar-p4 2s linear;
+        -moz-animation: green-pillar-p4 2s linear; }
       .w-us-features-item.active .green-pillar.p5 {
-        animation: green-pillar-p5 2s;
-        -webkit-animation: green-pillar-p5 2s;
-        -moz-animation: green-pillar-p5 2s; }
+        animation: green-pillar-p5 2s linear;
+        -webkit-animation: green-pillar-p5 2s linear;
+        -moz-animation: green-pillar-p5 2s linear; }
       .w-us-features-item.active .green-pillar.p6 {
-        animation: green-pillar-p6 2s;
-        -webkit-animation: green-pillar-p6 2s;
-        -moz-animation: green-pillar-p6 2s; }
+        animation: green-pillar-p6 2s linear;
+        -webkit-animation: green-pillar-p6 2s linear;
+        -moz-animation: green-pillar-p6 2s linear; }
       .w-us-features-item.active .graph-container .l1, .w-us-features-item.active .graph-container .l3 {
         animation: graphl1 2s;
         -webkit-animation: graphl1 2s;
