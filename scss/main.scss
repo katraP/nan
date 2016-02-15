@@ -413,22 +413,22 @@ body {
 				}
 			  	.green-pillar {
 				  &.p1 {
-				  	@include animation(green-pillar-p1 2.5s linear);
+				  	@include animation(green-pillar-p1 1.5s linear);
 				  }
 				  &.p2 {
-					@include animation(green-pillar-p2 2.2s linear);
+					@include animation(green-pillar-p2 1.5s linear);
 				  }
 				  &.p3 {
-					@include animation(green-pillar-p3 2.2s linear);
+					@include animation(green-pillar-p3 1.5s linear);
 				  }
 				  &.p4 {
-					@include animation(green-pillar-p4 2s linear);
+					@include animation(green-pillar-p4 1.5s linear);
 				  }
 				  &.p5 {
-					@include animation(green-pillar-p5 2s linear);
+					@include animation(green-pillar-p5 1.5s linear);
 				  }
 				  &.p6 {
-					@include animation(green-pillar-p6 2s linear);
+					@include animation(green-pillar-p6 1.5s linear);
 				  }
 				}
                 // /additional styles
