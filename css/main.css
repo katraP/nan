@@ -6,8 +6,7 @@ li {
   list-style-type: none; }
 
 body {
-  /*min-width: 1005px;*/
-  overflow-x: hidden;
+  min-width: 1005px;
   width: 100%; }
   body.nonactive {
     overflow-y: hidden; }
