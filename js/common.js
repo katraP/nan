@@ -3,7 +3,7 @@
  */
 $(function(){
 
-    alert($('body').width);
+    alert($('body').width());
     alert(window.devicePixelRatio * window.screen.width);
     var scrollTopBut = function(el, stopEl){
 
