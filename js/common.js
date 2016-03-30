@@ -2,6 +2,9 @@
  * Created by Ekaterina.Porkhun on 01.09.2015.
  */
 $(function(){
+
+    alert($('body').width);
+    alert(window.devicePixelRatio * window.screen.width);
     var scrollTopBut = function(el, stopEl){
 
         var stopElement = $(stopEl);
